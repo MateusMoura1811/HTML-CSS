@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Trabalho prático</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo Site" width="100" height="100">
+        </div>
+        <h1>Música e artes</h1>
+        <div class="menu">
+            <form action="#" method="get">
+                <label for="username">Nome de Usuário:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Login</button>
+                <button type="submit">Cadastro</button>
+            </form>
+        </div>
+    </header>
+
+    <aside>
+        <h2>Conteúdos</h2>
+        <form action="#" method="get">
+            <label for="pesquisa">Pesquisar:</label>
+            <input type="text" id="pesquisa" name="pesquisa" placeholder="Digite sua pesquisa">
+            <button type="submit">Pesquisar</button>
+        </form>
+        <p><a href="#">Página principal</a></p>
+        <p><a href="#">Imagens</a></p>
+        <p><a href="#">Músicas</a></p>
+        <p><a href="#">Sobre</a></p>
+    </aside>
+
+    <main>
+        <div class="left-section">
+            <h2>Músicas</h2>
+            <p>
+                <p>Porsche</p>
+                <audio id="Musica" controls>
+                    <source src="gt2 rs.mp3" type="audio/mp3">
+                </audio>
+            </p>
+            <p>
+                <p>Acabou</p>
+                <audio id="Musica2" controls>
+                    <source src="bad.mp3" type="audio/mp3">
+                </audio>
+            </p>
+
+            <h2>Instrumentais</h2>
+            <p>
+                <p>Literal</p>
+                <audio id="Musica3" controls>
+                    <source src="orange.mp3" type="audio/mp3">
+                </audio>
+            </p>
+            <p>Vinho Laranja</p>
+            <audio id="Musica4" controls>
+                <source src="o bom.mp3" type="audio/mp3">
+            </audio>
+        </div>
+
+        <div class="right-section">
+            <h1>Imagens</h1>
+            <p>Robô</p>
+            <img src="robo.png" alt="Um robo" width="500px" height="500px">
+            <p>Menina no espaço</p>
+            <img src="comp.png" alt="menina no espaço" width="500px" height="500px">
+        </div>
+    </main>
+
+</body>
+</html>
